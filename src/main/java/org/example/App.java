@@ -43,8 +43,11 @@ public class App {
                     String sql = "INSERT INTO article";
                     sql += " SET regDate = NOW()";
                     sql += ", updateDate = NOW()";
-                    sql += ", title = 'testTitle'";
-                    sql += ", `body` = 'testBody'";
+                    sql += ", title =" + "\'" + title + "\'";
+                    sql += ", `body` =" + "\'" + body + "\'";
+
+//                    String toSqlTitle = title;
+//                    String toSqlBody = body;
 
                     pstmt = conn.prepareStatement(sql);
                     int affectedRows = pstmt.executeUpdate();
