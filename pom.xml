@@ -8,6 +8,8 @@
     <artifactId>jdbc_test</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <artifactId>JDBCtest1</artifactId>
+    <version>1.0-SNAPSHOT</version>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
         <dependency>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Created by https://www.toptal.com/developers/gitignore/api/intellij,java
 # Edit at https://www.toptal.com/developers/gitignore?templates=intellij,java
 
@@ -141,3 +142,8 @@ hs_err_pid*
 replay_pid*
 
 # End of https://www.toptal.com/developers/gitignore/api/intellij,java
+=======
+# 디폴트 무시된 파일
+/shelf/
+/workspace.xml
+>>>>>>> 3a53a1b5a1c7f571636d94112cab4c3233995997

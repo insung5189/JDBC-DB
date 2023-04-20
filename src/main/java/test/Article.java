@@ -1,4 +1,4 @@
-package test;
+package com.mysql.jdbc.test;
 
 public class Article {
     public int id;

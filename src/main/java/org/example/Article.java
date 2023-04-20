@@ -11,8 +11,6 @@ public class Article {
         this.id = id;
         this.title = title;
         this.body = body;
-        this.regDate = regDate;
-        this.updateDate = updateDate;
     }
 
     public Article(int id, String title, String body) {
